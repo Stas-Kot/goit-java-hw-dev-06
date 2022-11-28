@@ -14,8 +14,6 @@ public class Database {
         try {
             String connectionUrl = new Prefs().getPref(Prefs.DB_JDBC_CONNECTION_URL);
             connection = DriverManager.getConnection(connectionUrl);
-
-//            Statement statement = connection.createStatement();
         } catch (Exception ex) {
             ex.printStackTrace();
         }

@@ -12,13 +12,6 @@ import java.util.Map;
 public class Prefs {
     public static final String DB_JDBC_CONNECTION_URL = "dbUrl";
     public static final String DEFAULT_PREFS_FILENAME = "prefs.json";
-    public static final String INIT_DB_SQL_FILE_PATH = "initDbSql";
-    public static final String INSERT_SQL_FILE_PATH = "insertSql";
-    public static final String SELECT_MAX_PROJECTS_CLIENT_FILE_PATH = "selectMaxProjectsClientSql";
-    public static final String SELECT_LONGEST_PROJECT_FILE_PATH = "selectLongestProjectSql";
-    public static final String SELECT_MAX_SALARY_WORKER_FILE_PATH = "selectMaxSalaryWorkerSql";
-    public static final String SELECT_YOUNGEST_ELDEST_WORKERS_FILE_PATH = "selectYoungestEldestWorkersSql";
-    public static final String SELECT_PROJECT_PRICES_FILE_PATH = "selectProjectPricesSql";
 
     private Map<String, Object> prefs = new HashMap<>();
 

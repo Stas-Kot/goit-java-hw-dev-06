@@ -5,7 +5,7 @@ import org.flywaydb.core.Flyway;
 
 
 public class DatabaseInitService {
-    public void initDb(Database database) {
+    public void initDb() {
         String connectionUrl = new Prefs().getPref(Prefs.DB_JDBC_CONNECTION_URL);
 
         // Create the Flyway instance and point it to the database
